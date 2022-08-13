@@ -1,6 +1,8 @@
 # ADRC
 Alpha Dose Rate Calculator
 
+The code used in this project is open-source and can be found on github (https://github.com/siberry1/ADRC)
+
 ----THIS PROJECT HAS MOVED TO THE RAD-DOSE PROJECT (http://radiation-dose.com/) FOR ALPHA,BETA RADIATION THROUGH MULTIPLE MATERIALS----
 
 ##################################################################################
