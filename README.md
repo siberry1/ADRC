@@ -1,9 +1,9 @@
 # ADRC
 Alpha Dose Rate Calculator
 
-----THIS PROJECT HAS MOVED TO THE RAD-DOSE PROJECT FOUND AT RADIATION-DOSE.COM FOR ALPHA,BETA RADIATION THROUGH MULTIPLE MATERIALS----
+----THIS PROJECT HAS MOVED TO THE RAD-DOSE PROJECT (http://radiation-dose.com/) FOR ALPHA,BETA RADIATION THROUGH MULTIPLE MATERIALS----
 
-########################################################################################
+##################################################################################
 
 Version 2.1
 
@@ -20,7 +20,7 @@ Possible development: (As develoments have moved to the Rad-Dose project (Radiat
 - Surrounding atmosphere options
 
 
-########################################################################################
+##################################################################################
 
 About: 
 The Alpha Dose Rate Calculator (ADRC) is a mathematical model utilising data from the Projected Range Algorithm (PRAL) from the Stopping Ranges of Ions in Matter (SRIM) software (Ziegler & Biersack 2003), to calculate dose rates from a variety of geometries, activities and energies through water. The current working version is for UO2 and water only but is currently being developed for a multitude of radionuclide contains materials and surrounding environments. For more information regarding the underlying physics please refer to the referenced article below.
@@ -38,7 +38,7 @@ A second article laying out the geometrical cosiderations of a particle geometry
 
 https://doi.org/10.1016/j.radphyschem.2021.109677.
 
-#########################################################################################
+##################################################################################
 
 Troubleshooting:
 
