@@ -552,7 +552,7 @@ def linear_results_window():
                                 relheight=0.05, anchor='n')
 
                     title = Label(frame, bg='white',
-                                  text="Linear Report", font=(None, 30, 'bold'))
+                                  text="Planar Report", font=(None, 30, 'bold'))
                     title.place(relwidth=1, relheight=1)
 
                     crack = var1.get()
@@ -1285,7 +1285,7 @@ def linear_window():
     button.place(relx=0.5, rely=0.88, anchor='n')
 
     text2 = Label(linwindow, bg="white",
-                  text="Version 2.0, \u00A9 2021, Angus Siberry. All rights reserved.", font=(None, 8))
+                  text="Version 2.1, \u00A9 2022, Angus Siberry. All rights reserved.", font=(None, 8))
     text2.place(relx=0.7, rely=0.9, width=300, anchor='n')
 
 
@@ -1792,7 +1792,7 @@ def spherical_window():
     button.place(relx=0.5, rely=0.81, anchor='n')
 
     text2 = Label(swindow, bg="white",
-                  text="Version 2.0, \u00A9 2021, Angus Siberry. All rights reserved.", font=(None, 8))
+                  text="Version 2.1, \u00A9 2022, Angus Siberry. All rights reserved.", font=(None, 8))
     text2.place(relx=0.68, rely=0.97, width=300, anchor='n')
 
 
@@ -1800,15 +1800,15 @@ HEIGHT = 875
 WIDTH = 1450
 
 master = Tk()
-master.title("Alpha Dose Rate Calculator v2.0")
+master.title("Alpha Dose Rate Calculator v2.1")
 
 canvas0 = Canvas(master, height=HEIGHT, width=WIDTH, bg='black')
 canvas0.pack()
 
-background_image = PhotoImage(file='BCG.png')
-background_image1 = PhotoImage(file='ps51.png')
-background_image2 = PhotoImage(file='sp3.png')
-size_image = PhotoImage(file='Particle_size1.png')
+background_image = PhotoImage(file='images/BCG.png')
+background_image1 = PhotoImage(file='images/ps51.png')
+background_image2 = PhotoImage(file='images/sp3.png')
+size_image = PhotoImage(file='images/Particle_size1.png')
 
 
 background_label = Label(master, image=background_image)
